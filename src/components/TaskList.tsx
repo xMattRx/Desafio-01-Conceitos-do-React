@@ -29,6 +29,7 @@ export function TaskList() {
     if(task.title !== ''){
       newTasks.push(task);
       setTasks(newTasks);
+      setNewTaskTitle('')
     }
   }
 
